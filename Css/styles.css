@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Work sans,sans-serif;
+}
+/* shared style */
+.btn1{
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+/* main style */
+header{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+#banner-section{
+    /* border:1px solid red; */
+    width: 71%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.banner-container{
+    width: 525px;
+    /* border:1px solid red; */
+    margin-left: auto;
+    text-align: right;
+    padding-top:216px;
+}
+
+.banner-title h2{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+    margin:216px 0 24px 0;
+}
+.banner-title p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.banner-title .btn1{
+    margin-bottom: 166px;
+}
+/* failure section */
+#failure-section .failure-container{
+    display:flex;
+    width: 71%;
+    max-width: 1240px;
+    margin: 0 auto;
+    gap:87px;
+    padding: 130px 0;
+}
+.failure-text{
+    padding-top: 240px;
+    /* border:1px solid green; */
+    width:416px;
+}
+.failure-text h2{
+    margin-right: 128px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.failure-text p{
+    width: 416px;
+    color: #444343;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.failure-text ul{
+    color: #444343;
+    list-style: none;   
+    margin-right: 67px;
+}
+
+.failure-text ul li i{
+    color: #16D887;
+    margin-right:10px;
+    margin-bottom: 8px;
+}
