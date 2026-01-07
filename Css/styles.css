@@ -90,3 +90,71 @@ header{
     margin-right:10px;
     margin-bottom: 8px;
 }
+
+#plan .plan-container{
+    width: 71%;
+    max-width:1270px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom:130px;
+}
+.plan-container .plan-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-container .plancard-container{
+    display: flex;
+    justify-content: space-between;
+}
+.plancard-container{
+    text-align: center;
+}
+.plancard-container img{
+    margin-bottom: 24px;
+}
+.plancard-container h2{
+    margin-bottom: 16px;
+    color: #151414;
+    font-size: 30px;
+    font-weight:bold;
+}
+.plancard-container p{
+    color: #737272;
+    font-size: 25px;
+    font-weight:300;
+}
+
+#positive-section{
+    margin-bottom:130px;
+}
+.positive-container{
+    background-image: linear-gradient(
+    to right,
+    rgba(0, 90, 170, 0.85),
+    rgba(0, 90, 170, 0.55),
+    rgba(0, 90, 170, 0.25),
+    rgba(0, 90, 170, 0)
+), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border:1px solid red; */
+    width: 71%;
+    max-width:1270px;
+    margin: 0 auto;
+    padding-left: 64px;
+    padding: 60px 0 60px 64px;
+    border-radius: 8px;
+}
+.positive-container h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top:60px;
+}
+.positive-container .btn1{
+    margin-bottom:60px;
+    max-width: max-content;
+}
