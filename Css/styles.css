@@ -6,6 +6,15 @@
 /* shared style */
 .btn1{
     padding: 20px 25px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #005FAC;
+}
+.btn2{
+    padding: 20px 25px;
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
@@ -157,4 +166,53 @@ header{
 .positive-container .btn1{
     margin-bottom:60px;
     max-width: max-content;
+}
+#footer-section{
+    background-color: #151414; 
+    padding-top:130px;
+}
+.footer-container{
+    width:71%;
+    max-width:1270px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .social{
+    width: 485px;
+}
+.social h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.social p{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 24px;
+
+}
+.social .info p{
+    margin-bottom: 16px;
+}
+.social .icons{
+    margin-bottom: 130px;
+    display: flex;
+    gap:17px;
+}
+
+.footer-container .subscribe h2{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.footer-container .subscribe #email{
+    color:#ffffff;
+    padding: 20px;
+    width:325px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    background-color: #151414;
+    margin-bottom: 16px;
 }
